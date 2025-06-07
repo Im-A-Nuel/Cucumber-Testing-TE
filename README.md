@@ -2,12 +2,19 @@
 
 ## Setup Project
 
-1. **Buka terminal** dan pastikan Node.js sudah terinstall:
+1. **Clone repository dari GitHub:**
+    ```bash
+    git clone https://github.com/Im-A-Nuel/Cucumber-Testing-TE.git
+    
+    cd <nama-folder-project>
+    ```
+
+2. **Buka terminal** dan pastikan Node.js sudah terinstall:
     ```bash
     node -v
     npm -v
     ```
-2. **Jalankan perintah berikut di terminal/CMD untuk menginstall dependencies:**
+3. **Jalankan perintah berikut di terminal/CMD untuk menginstall dependencies:**
     ```bash
     npm install
     ```
@@ -68,6 +75,8 @@ Scenario: Successfully adding an item to cart
 ---
 
 ## Cara Menjalankan Test
+* **Pastikan anda memiliki browser Chrome**
+
 * **Jalankan perintah berikut di terminal/CMD :**
     ```bash
     npm test
